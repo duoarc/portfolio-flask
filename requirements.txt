@@ -1,0 +1,4 @@
+Flask==1.0.1
+gunicorn==19.7.1
+sqlalchemy==1.4.22
+Flask-Mail==0.9.1
