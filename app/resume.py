@@ -50,6 +50,6 @@ def resumeContact():
 
 
 if __name__ == '__main__':
-    app.secret_key = "super_secret_keeey"
+    app.secret_key = os.environ.get('SECRET_KEY')
     app.debug = True
     app.run()
