@@ -36,7 +36,7 @@ def resumeContact():
         newMessage = ContactForm(name = request.form['contactName'], email = request.form['contactEmail'], subject = request.form['contactSubject'], message = request.form['contactMessage'])
         msg = Message(request.form['contactSubject'], sender = request.form['contactEmail'], recipients = ['abdmuhammad610@gmail.com'])
         msg.body = request.form['contactMessage']
-        mail.send(msg)
+        #mail.send(msg)
         session.add(newMessage)
         session.commit()
 
