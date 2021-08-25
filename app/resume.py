@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 import os
-from flask import Flask, render_template, redirect, request, flash, jsonify
+from flask import Flask, render_template, redirect, request, flash
 import locale
 from flask.helpers import url_for
 from flask_mail import Mail, Message
